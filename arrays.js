@@ -70,15 +70,14 @@ function destructivelyAddElementToBeginningOfArray(array, item)
 function addElementToEndOfArray(array, item)
 {
 
-  var newArray = array; 
+  var newArray = array;
   newArray.push(item);
-  
-  
+  return newArray;
+
 }
 function destructivelyAddElementToEndOfArray(array, item)
 {
+  array[array.length] = item;
 
-
-
-  
+  return array; 
 }
