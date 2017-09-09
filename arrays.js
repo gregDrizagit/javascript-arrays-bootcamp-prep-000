@@ -62,7 +62,7 @@ function destructivelyAddElementToBeginningOfArray(array, element)
   return array.unshift(element);
 }
 
-function addElementToEndOfArray(array, index)
+function addElementToEndOfArray(array, element)
 {
 
   var newArray = array;
@@ -77,7 +77,7 @@ function destructivelyAddElementToEndOfArray(array, element)
   return array;
 }
 
-function accessElementInArray(array, element)
+function accessElementInArray(array, index)
 {
   return array[index];
 
