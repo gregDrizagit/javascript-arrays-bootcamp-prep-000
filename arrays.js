@@ -51,7 +51,7 @@ Your function should return the entire array, and it **should not** mutate the a
 var chocolateBars =[`snickers`, `hundred grand`, `kitkat`, `skittles`];
 
 
-function addElementToBeginningOfArray(array, item)
+function addElementToBeginningOfArray(array, element)
 {
   var newArray = array.unshift(item);
 
@@ -59,7 +59,7 @@ function addElementToBeginningOfArray(array, item)
 
 }
 
-function destructivelyAddElementToBeginningOfArray(array, item)
+function destructivelyAddElementToBeginningOfArray(array, element)
 {
 
   array[0] = item;
@@ -67,7 +67,7 @@ function destructivelyAddElementToBeginningOfArray(array, item)
   return array;
 }
 
-function addElementToEndOfArray(array, item)
+function addElementToEndOfArray(array, element)
 {
 
   var newArray = array;
@@ -75,14 +75,14 @@ function addElementToEndOfArray(array, item)
   return newArray;
 
 }
-function destructivelyAddElementToEndOfArray(array, item)
+function destructivelyAddElementToEndOfArray(array, element)
 {
   array[array.length] = item;
 
   return array;
 }
 
-function accessElementInArray(array, index)
+function accessElementInArray(array, element)
 {
   return array[index];
 
