@@ -45,3 +45,5 @@ Your function should return the entire array, and it **should not** mutate the a
 
 
 */
+
+var chocolateBars =[`snickers`, `hundred grand`, `kitkat`, `skittles`];
