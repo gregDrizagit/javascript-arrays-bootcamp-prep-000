@@ -41,7 +41,7 @@ It takes a bit more work than removing the first element, since we want the slic
 from index `0` (remember, the first element is at index `0`!) to the end.
 Hmmmm — what property do arrays have that can help us? `length`!
 
-**TODO**: Define a function in `arrays.js` called `removeElementFromEndOfArray`
+****: Define a function in `arrays.js` called `removeElementFromEndOfArray`
 that takes an array as its only argument and removes the last element.
 Your function should return the entire array, and it **should not** mutate the array.
 
@@ -53,11 +53,9 @@ var chocolateBars =[`snickers`, `hundred grand`, `kitkat`, `skittles`];
 
 function addElementToBeginningOfArray(array, item)
 {
-  var newArray = array;
 
-  newArray.unshift(item);
 
-  return newArray;
+  return array.unshift(item);
 
 }
 
