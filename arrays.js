@@ -47,3 +47,17 @@ Your function should return the entire array, and it **should not** mutate the a
 */
 
 var chocolateBars =[`snickers`, `hundred grand`, `kitkat`, `skittles`];
+
+
+function addElementToBeginningOfArray(array, item)
+{
+
+
+
+
+}
+
+function destructivelyAddElementToBeginningOfArray(array, item)
+{
+
+}
