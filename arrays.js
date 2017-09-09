@@ -91,12 +91,15 @@ function accessElementInArray(array, index)
 function destructivelyRemoveElementFromBeginningOfArray(array)
 {
 
-  return array.shift();
+  return array.slice(1);
 
 }
 
 function removeElementFromBeginningOfArray(array)
 {
+  var cities = ["New York", "San Francisco"]
+
+  ["Philadelphia", ...cities]
   return
 
 }
