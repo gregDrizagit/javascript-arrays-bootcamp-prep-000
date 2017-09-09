@@ -28,11 +28,13 @@ that takes an array as its only argument and removes the first element.
 Your function should then return the entire array, and it **should** mutate the array.
 
 
-**TODO**: Define a function in `arrays.js` called `removeElementFromBeginningOfArray`
+****: Define a function in `arrays.js` called `removeElementFromBeginningOfArray`
 that takes an array as its only argument and removes the first element.
 Your function should then return the entire array, and it **should not** mutate the underlying array.
 
-**TODO**: Define a function in `arrays.js` called `destructivelyRemoveElementFromEndOfArray` that takes an array as its only argument and removes the last element. Your function should return the entire array, and it **should** mutate the array.
+****: Define a function in `arrays.js` called `destructivelyRemoveElementFromEndOfArray`
+that takes an array as its only argument and removes the last element.
+Your function should return the entire array, and it **should** mutate the array.
 
 We can use `slice` to perform the above action without changing the underlying array.
 It takes a bit more work than removing the first element, since we want the slice
@@ -97,7 +99,19 @@ function destructivelyRemoveElementFromBeginningOfArray(array)
 
 function removeElementFromBeginningOfArray(array)
 {
-  
-  return array.slice(); 
 
+  return array.slice();
+
+}
+
+function destructivelyRemoveElementFromEndOfArray(array)
+{
+
+  return array.pop();
+
+}
+
+function removeElementFromEndOfArray(array)
+{
+  return array.slice(array.length - 1);
 }
