@@ -59,7 +59,7 @@ function addElementToBeginningOfArray(array, element)
 function destructivelyAddElementToBeginningOfArray(array, element)
 {
 
-  return array[0](element);
+  return array.unshift(element);
 }
 
 function addElementToEndOfArray(array, element)
