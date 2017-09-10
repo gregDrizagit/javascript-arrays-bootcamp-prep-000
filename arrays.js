@@ -100,11 +100,12 @@ function removeElementFromBeginningOfArray(array)
 function destructivelyRemoveElementFromEndOfArray(array)
 {
     array.pop();
-  return array; 
+  return array;
 
 }
 
 function removeElementFromEndOfArray(array)
 {
-  return array.slice(-3);
+  array.slice(-1);
+  return array; 
 }
